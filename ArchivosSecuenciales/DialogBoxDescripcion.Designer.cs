@@ -36,35 +36,43 @@ namespace ArchivosSecuenciales
             // 
             // txtDesD
             // 
-            this.txtDesD.Location = new System.Drawing.Point(120, 62);
+            this.txtDesD.BackColor = System.Drawing.Color.Snow;
+            this.txtDesD.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtDesD.Location = new System.Drawing.Point(161, 23);
             this.txtDesD.Name = "txtDesD";
-            this.txtDesD.Size = new System.Drawing.Size(200, 22);
+            this.txtDesD.Size = new System.Drawing.Size(200, 30);
             this.txtDesD.TabIndex = 0;
             // 
             // lblDesc
             // 
             this.lblDesc.AutoSize = true;
-            this.lblDesc.Location = new System.Drawing.Point(12, 62);
+            this.lblDesc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.lblDesc.ForeColor = System.Drawing.Color.Snow;
+            this.lblDesc.Location = new System.Drawing.Point(12, 25);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(86, 17);
+            this.lblDesc.Size = new System.Drawing.Size(132, 23);
             this.lblDesc.TabIndex = 1;
             this.lblDesc.Text = "Descripcion:";
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Snow;
             this.btnBuscar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnBuscar.Location = new System.Drawing.Point(105, 111);
+            this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBuscar.Location = new System.Drawing.Point(126, 76);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(120, 50);
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // DialogBoxDescripcion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 173);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(384, 149);
             this.ControlBox = false;
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblDesc);

@@ -36,35 +36,43 @@ namespace ArchivosSecuenciales
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Snow;
             this.btnBuscar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnBuscar.Location = new System.Drawing.Point(104, 104);
+            this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBuscar.Location = new System.Drawing.Point(120, 88);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(120, 50);
             this.btnBuscar.TabIndex = 0;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // lblClave
             // 
             this.lblClave.AutoSize = true;
-            this.lblClave.Location = new System.Drawing.Point(29, 26);
+            this.lblClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClave.ForeColor = System.Drawing.Color.Snow;
+            this.lblClave.Location = new System.Drawing.Point(28, 31);
             this.lblClave.Name = "lblClave";
-            this.lblClave.Size = new System.Drawing.Size(47, 17);
+            this.lblClave.Size = new System.Drawing.Size(74, 23);
             this.lblClave.TabIndex = 1;
             this.lblClave.Text = "Clave:";
             // 
             // txtClaveC
             // 
-            this.txtClaveC.Location = new System.Drawing.Point(120, 46);
+            this.txtClaveC.BackColor = System.Drawing.Color.Snow;
+            this.txtClaveC.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtClaveC.Location = new System.Drawing.Point(120, 29);
             this.txtClaveC.Name = "txtClaveC";
-            this.txtClaveC.Size = new System.Drawing.Size(200, 22);
+            this.txtClaveC.Size = new System.Drawing.Size(200, 30);
             this.txtClaveC.TabIndex = 2;
             // 
             // DialogBoxClave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 173);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(376, 164);
             this.ControlBox = false;
             this.Controls.Add(this.txtClaveC);
             this.Controls.Add(this.lblClave);

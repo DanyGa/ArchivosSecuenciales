@@ -43,28 +43,35 @@ namespace ArchivosSecuenciales
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(127, 137);
+            this.btnBuscar.BackColor = System.Drawing.Color.Snow;
+            this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBuscar.Location = new System.Drawing.Point(167, 89);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(120, 50);
             this.btnBuscar.TabIndex = 0;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // lblClave
             // 
             this.lblClave.AutoSize = true;
-            this.lblClave.Location = new System.Drawing.Point(29, 44);
+            this.lblClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClave.ForeColor = System.Drawing.Color.Snow;
+            this.lblClave.Location = new System.Drawing.Point(97, 30);
             this.lblClave.Name = "lblClave";
-            this.lblClave.Size = new System.Drawing.Size(47, 17);
+            this.lblClave.Size = new System.Drawing.Size(74, 23);
             this.lblClave.TabIndex = 1;
             this.lblClave.Text = "Clave:";
             // 
             // txtClaveM
             // 
-            this.txtClaveM.Location = new System.Drawing.Point(226, 44);
+            this.txtClaveM.BackColor = System.Drawing.Color.Snow;
+            this.txtClaveM.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtClaveM.Location = new System.Drawing.Point(189, 28);
             this.txtClaveM.Name = "txtClaveM";
-            this.txtClaveM.Size = new System.Drawing.Size(200, 22);
+            this.txtClaveM.Size = new System.Drawing.Size(200, 30);
             this.txtClaveM.TabIndex = 2;
             // 
             // gbModificar
@@ -75,59 +82,71 @@ namespace ArchivosSecuenciales
             this.gbModificar.Controls.Add(this.lblDesc);
             this.gbModificar.Controls.Add(this.btnAceptar);
             this.gbModificar.Enabled = false;
-            this.gbModificar.Location = new System.Drawing.Point(68, 267);
+            this.gbModificar.Location = new System.Drawing.Point(25, 157);
             this.gbModificar.Name = "gbModificar";
-            this.gbModificar.Size = new System.Drawing.Size(331, 215);
+            this.gbModificar.Size = new System.Drawing.Size(409, 215);
             this.gbModificar.TabIndex = 3;
             this.gbModificar.TabStop = false;
             // 
             // txtDesM
             // 
-            this.txtDesM.Location = new System.Drawing.Point(106, 34);
+            this.txtDesM.BackColor = System.Drawing.Color.Snow;
+            this.txtDesM.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtDesM.Location = new System.Drawing.Point(164, 37);
             this.txtDesM.Name = "txtDesM";
-            this.txtDesM.Size = new System.Drawing.Size(200, 22);
+            this.txtDesM.Size = new System.Drawing.Size(200, 30);
             this.txtDesM.TabIndex = 4;
             // 
             // txtPrecioM
             // 
-            this.txtPrecioM.Location = new System.Drawing.Point(106, 87);
+            this.txtPrecioM.BackColor = System.Drawing.Color.Snow;
+            this.txtPrecioM.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtPrecioM.Location = new System.Drawing.Point(164, 88);
             this.txtPrecioM.Name = "txtPrecioM";
-            this.txtPrecioM.Size = new System.Drawing.Size(200, 22);
+            this.txtPrecioM.Size = new System.Drawing.Size(200, 30);
             this.txtPrecioM.TabIndex = 3;
             // 
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(14, 90);
+            this.lblPrecio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecio.ForeColor = System.Drawing.Color.Snow;
+            this.lblPrecio.Location = new System.Drawing.Point(69, 90);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(52, 17);
+            this.lblPrecio.Size = new System.Drawing.Size(77, 23);
             this.lblPrecio.TabIndex = 2;
             this.lblPrecio.Text = "Precio:";
             // 
             // lblDesc
             // 
             this.lblDesc.AutoSize = true;
+            this.lblDesc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesc.ForeColor = System.Drawing.Color.Snow;
             this.lblDesc.Location = new System.Drawing.Point(14, 39);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(86, 17);
+            this.lblDesc.Size = new System.Drawing.Size(132, 23);
             this.lblDesc.TabIndex = 1;
             this.lblDesc.Text = "Descripcion:";
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackColor = System.Drawing.Color.Snow;
             this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnAceptar.Location = new System.Drawing.Point(115, 130);
+            this.btnAceptar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAceptar.Location = new System.Drawing.Point(142, 139);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(120, 50);
             this.btnAceptar.TabIndex = 0;
             this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             // 
             // DialogBoxModificacionProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(479, 660);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(479, 419);
             this.ControlBox = false;
             this.Controls.Add(this.gbModificar);
             this.Controls.Add(this.txtClaveM);

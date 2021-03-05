@@ -48,6 +48,7 @@ namespace ArchivosSecuenciales
             // 
             // lvProductos
             // 
+            this.lvProductos.BackColor = System.Drawing.Color.Snow;
             this.lvProductos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Clave,
             this.Descripcion,
@@ -78,12 +79,14 @@ namespace ArchivosSecuenciales
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Snow;
+            this.menuStrip1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuPrincipalToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(653, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(653, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -96,13 +99,13 @@ namespace ArchivosSecuenciales
             this.eliminarProductoToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuPrincipalToolStripMenuItem.Name = "menuPrincipalToolStripMenuItem";
-            this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(121, 24);
+            this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(147, 20);
             this.menuPrincipalToolStripMenuItem.Text = "Menu Principal";
             // 
             // altasDeProductosToolStripMenuItem
             // 
             this.altasDeProductosToolStripMenuItem.Name = "altasDeProductosToolStripMenuItem";
-            this.altasDeProductosToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.altasDeProductosToolStripMenuItem.Size = new System.Drawing.Size(331, 26);
             this.altasDeProductosToolStripMenuItem.Text = "Altas de Productos";
             this.altasDeProductosToolStripMenuItem.Click += new System.EventHandler(this.altasDeProductosToolStripMenuItem_Click);
             // 
@@ -113,48 +116,48 @@ namespace ArchivosSecuenciales
             this.descripcionToolStripMenuItem,
             this.todosToolStripMenuItem});
             this.consultaDeProductosToolStripMenuItem.Name = "consultaDeProductosToolStripMenuItem";
-            this.consultaDeProductosToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.consultaDeProductosToolStripMenuItem.Size = new System.Drawing.Size(331, 26);
             this.consultaDeProductosToolStripMenuItem.Text = "Consulta de Productos";
             // 
             // claveToolStripMenuItem
             // 
             this.claveToolStripMenuItem.Name = "claveToolStripMenuItem";
-            this.claveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.claveToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.claveToolStripMenuItem.Text = "Clave";
             this.claveToolStripMenuItem.Click += new System.EventHandler(this.claveToolStripMenuItem_Click);
             // 
             // descripcionToolStripMenuItem
             // 
             this.descripcionToolStripMenuItem.Name = "descripcionToolStripMenuItem";
-            this.descripcionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.descripcionToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.descripcionToolStripMenuItem.Text = "Descripcion";
             this.descripcionToolStripMenuItem.Click += new System.EventHandler(this.descripcionToolStripMenuItem_Click);
             // 
             // todosToolStripMenuItem
             // 
             this.todosToolStripMenuItem.Name = "todosToolStripMenuItem";
-            this.todosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.todosToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.todosToolStripMenuItem.Text = "Todos";
             this.todosToolStripMenuItem.Click += new System.EventHandler(this.todosToolStripMenuItem_Click);
             // 
             // modificacionesDeProductosToolStripMenuItem
             // 
             this.modificacionesDeProductosToolStripMenuItem.Name = "modificacionesDeProductosToolStripMenuItem";
-            this.modificacionesDeProductosToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.modificacionesDeProductosToolStripMenuItem.Size = new System.Drawing.Size(331, 26);
             this.modificacionesDeProductosToolStripMenuItem.Text = "Modificaciones de Productos";
             this.modificacionesDeProductosToolStripMenuItem.Click += new System.EventHandler(this.modificacionesDeProductosToolStripMenuItem_Click);
             // 
             // eliminarProductoToolStripMenuItem
             // 
             this.eliminarProductoToolStripMenuItem.Name = "eliminarProductoToolStripMenuItem";
-            this.eliminarProductoToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.eliminarProductoToolStripMenuItem.Size = new System.Drawing.Size(331, 26);
             this.eliminarProductoToolStripMenuItem.Text = "Eliminar Producto";
             this.eliminarProductoToolStripMenuItem.Click += new System.EventHandler(this.eliminarProductoToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(331, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -162,6 +165,7 @@ namespace ArchivosSecuenciales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(653, 450);
             this.ControlBox = false;
             this.Controls.Add(this.lvProductos);

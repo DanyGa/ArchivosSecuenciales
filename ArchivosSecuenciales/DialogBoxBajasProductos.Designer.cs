@@ -37,37 +37,47 @@ namespace ArchivosSecuenciales
             // 
             // txtClaveB
             // 
-            this.txtClaveB.Location = new System.Drawing.Point(122, 44);
+            this.txtClaveB.BackColor = System.Drawing.Color.Snow;
+            this.txtClaveB.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtClaveB.Location = new System.Drawing.Point(120, 42);
             this.txtClaveB.Name = "txtClaveB";
-            this.txtClaveB.Size = new System.Drawing.Size(200, 22);
+            this.txtClaveB.Size = new System.Drawing.Size(200, 30);
             this.txtClaveB.TabIndex = 0;
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackColor = System.Drawing.Color.Snow;
             this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnAceptar.Location = new System.Drawing.Point(32, 96);
+            this.btnAceptar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnAceptar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAceptar.Location = new System.Drawing.Point(43, 96);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(120, 50);
             this.btnAceptar.TabIndex = 1;
             this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.Color.Snow;
             this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnSalir.Location = new System.Drawing.Point(182, 96);
+            this.btnSalir.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSalir.Location = new System.Drawing.Point(200, 96);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(120, 50);
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             // 
             // lblClave
             // 
             this.lblClave.AutoSize = true;
-            this.lblClave.Location = new System.Drawing.Point(51, 44);
+            this.lblClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClave.ForeColor = System.Drawing.Color.Snow;
+            this.lblClave.Location = new System.Drawing.Point(28, 44);
             this.lblClave.Name = "lblClave";
-            this.lblClave.Size = new System.Drawing.Size(47, 17);
+            this.lblClave.Size = new System.Drawing.Size(74, 23);
             this.lblClave.TabIndex = 3;
             this.lblClave.Text = "Clave:";
             // 
@@ -75,7 +85,8 @@ namespace ArchivosSecuenciales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 173);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(363, 173);
             this.ControlBox = false;
             this.Controls.Add(this.lblClave);
             this.Controls.Add(this.btnSalir);

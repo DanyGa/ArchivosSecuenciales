@@ -42,75 +42,94 @@ namespace ArchivosSecuenciales
             // lblClave
             // 
             this.lblClave.AutoSize = true;
-            this.lblClave.Location = new System.Drawing.Point(48, 53);
+            this.lblClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClave.ForeColor = System.Drawing.Color.Snow;
+            this.lblClave.Location = new System.Drawing.Point(36, 33);
             this.lblClave.Name = "lblClave";
-            this.lblClave.Size = new System.Drawing.Size(47, 17);
+            this.lblClave.Size = new System.Drawing.Size(74, 23);
             this.lblClave.TabIndex = 0;
             this.lblClave.Text = "Clave:";
             // 
             // lblDesc
             // 
             this.lblDesc.AutoSize = true;
-            this.lblDesc.Location = new System.Drawing.Point(48, 87);
+            this.lblDesc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesc.ForeColor = System.Drawing.Color.Snow;
+            this.lblDesc.Location = new System.Drawing.Point(36, 84);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(86, 17);
+            this.lblDesc.Size = new System.Drawing.Size(132, 23);
             this.lblDesc.TabIndex = 1;
             this.lblDesc.Text = "Descripcion:";
             // 
             // lblPre
             // 
             this.lblPre.AutoSize = true;
-            this.lblPre.Location = new System.Drawing.Point(59, 144);
+            this.lblPre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPre.ForeColor = System.Drawing.Color.Snow;
+            this.lblPre.Location = new System.Drawing.Point(36, 139);
             this.lblPre.Name = "lblPre";
-            this.lblPre.Size = new System.Drawing.Size(52, 17);
+            this.lblPre.Size = new System.Drawing.Size(77, 23);
             this.lblPre.TabIndex = 2;
             this.lblPre.Text = "Precio:";
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackColor = System.Drawing.Color.Snow;
             this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnAceptar.Location = new System.Drawing.Point(83, 219);
+            this.btnAceptar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnAceptar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAceptar.Location = new System.Drawing.Point(74, 205);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(120, 50);
             this.btnAceptar.TabIndex = 3;
             this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             // 
             // btnCancelar
             // 
+            this.btnCancelar.BackColor = System.Drawing.Color.Snow;
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(233, 219);
+            this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCancelar.Location = new System.Drawing.Point(243, 205);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(120, 50);
             this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             // 
             // txtPrecioA
             // 
-            this.txtPrecioA.Location = new System.Drawing.Point(204, 139);
+            this.txtPrecioA.BackColor = System.Drawing.Color.Snow;
+            this.txtPrecioA.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtPrecioA.Location = new System.Drawing.Point(204, 132);
             this.txtPrecioA.Name = "txtPrecioA";
-            this.txtPrecioA.Size = new System.Drawing.Size(200, 22);
+            this.txtPrecioA.Size = new System.Drawing.Size(200, 30);
             this.txtPrecioA.TabIndex = 5;
             // 
             // txtDesA
             // 
+            this.txtDesA.BackColor = System.Drawing.Color.Snow;
+            this.txtDesA.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
             this.txtDesA.Location = new System.Drawing.Point(204, 82);
             this.txtDesA.Name = "txtDesA";
-            this.txtDesA.Size = new System.Drawing.Size(200, 22);
+            this.txtDesA.Size = new System.Drawing.Size(200, 30);
             this.txtDesA.TabIndex = 6;
             // 
             // txtClaveA
             // 
-            this.txtClaveA.Location = new System.Drawing.Point(204, 33);
+            this.txtClaveA.BackColor = System.Drawing.Color.Snow;
+            this.txtClaveA.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold);
+            this.txtClaveA.Location = new System.Drawing.Point(204, 31);
             this.txtClaveA.Name = "txtClaveA";
-            this.txtClaveA.Size = new System.Drawing.Size(200, 22);
+            this.txtClaveA.Size = new System.Drawing.Size(200, 30);
             this.txtClaveA.TabIndex = 7;
             // 
             // DialogBoxAltasProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(432, 303);
             this.ControlBox = false;
             this.Controls.Add(this.txtClaveA);

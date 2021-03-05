@@ -119,8 +119,7 @@ namespace ArchivosSecuenciales
                     }
                 }
                 File.WriteAllLines("ArchivoSecuencial.txt", lineas);
-            }
-                
+            }               
         }
 
         public void BajasProductos()
